@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="game.libretro.bsnes-mercury" name="SNES (bSNES Mercury)" version="0.9.26" provider-name="Libretro">
+<addon id="game.libretro.bsnes-mercury" name="SNES (bSNES Mercury)" version="0.94.0" provider-name="Libretro">
   <requires>
     <import addon="game.libretro" version="1.0.0"/>
     <import addon="game.controller.snes" version="1.0.0"/>
   </requires>
-  <extension point="kodi.gameclient" library_android="libgame.libretro.bsnes-mercury.so" library_linux="game.libretro.bsnes-mercury.so" library_osx="game.libretro.bsnes-mercury.dylib" library_windx="game.libretro.bsnes-mercury.dll" library_wingl="game.libretro.bsnes-mercury.dll">
+  <extension point="kodi.gameclient"
+             library_android="libgame.libretro.bsnes-mercury.so"
+             library_linux="game.libretro.bsnes-mercury.so"
+             library_osx="game.libretro.bsnes-mercury.dylib"
+             library_windx="game.libretro.bsnes-mercury.dll">
     <platforms>SNES</platforms>
-    <extensions>smc|fig|bs|st|sfc</extensions>
-    <supports_vfs>false</supports_vfs>
+    <extensions>sfc|smc|bml</extensions>
+    <supports_vfs>true</supports_vfs>
     <supports_no_game>false</supports_no_game>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">bSNES Mercury v0.9.26</summary>
-    <description>bsnes-mercury is a fork of higan, aiming to restore some useful features that have been removed, as well as improving performance a bit.
-	    Maximum accuracy is still uncompromisable; anything that affects accuracy is optional and off by default.
+    <summary lang="en">bSNES Mercury v0.94</summary>
+    <description>bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.
 
-Supported files: .smc, .fig, .bs, .st, .sfc
+Supported files: .sfc, .smc, .bml
 
-License: GPLv2</description>
+http://byuu.org/
+
+License: GPLv3</description>
     <platform>all</platform>
     <nofanart>true</nofanart>
   </extension>

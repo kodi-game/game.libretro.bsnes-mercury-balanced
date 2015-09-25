@@ -10,7 +10,7 @@ find_package(kodi REQUIRED)
 find_package(libretro-bsnes-mercury REQUIRED)
 
 set(DEPLIBS bsnes-mercury)
-set(BEETLE_BSNES_CUSTOM_BINARY ${BSNES_MERCURY_LIB}
+set(BSNES_MERCURY_CUSTOM_BINARY ${BSNES_MERCURY_LIB}
                            game.libretro.bsnes-mercury${CMAKE_SHARED_LIBRARY_SUFFIX} bsnes-mercury)
 
 		   build_addon(game.libretro.bsnes-mercury BSNES_MERCURY DEPLIBS)

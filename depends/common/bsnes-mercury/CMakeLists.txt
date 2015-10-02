@@ -40,7 +40,7 @@ externalproject_add(bsnes-mercury
                     BUILD_IN_SOURCE 1)
 
 #install the generated shared library
-install(FILES ${PROJECT_SOURCE_DIR}/bsnes_mercury_accuracy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX}
+install(FILES ${PROJECT_SOURCE_DIR}/out/bsnes_mercury_accuracy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX}
         DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
 
 # write the beetle-bsnes-config.cmake script

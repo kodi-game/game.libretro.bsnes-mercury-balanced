@@ -1,1 +1,1 @@
-bsnes-mercury https://github.com/libretro/bsnes-mercury c8d0e3f
+bsnes-mercury https://github.com/libretro/bsnes-mercury master

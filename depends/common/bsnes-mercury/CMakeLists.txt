@@ -1,4 +1,4 @@
-project(beetle-bsnes)
+project(bsnes-mercury)
 
 cmake_minimum_required(VERSION 2.6)
 
@@ -31,9 +31,9 @@ else()
   message(FATAL_ERROR "${PROJECT_NAME} - Unknown system: ${CORE_SYSTEM_NAME}")
 endif()
 
-externalproject_add(bsnes-mercury
+externalproject_add(${PROJECT_NAME}
                     SOURCE_DIR ${PROJECT_SOURCE_DIR}
-                    PREFIX bsnes-mercury
+                    PREFIX ${PROJECT_NAME}
                     CONFIGURE_COMMAND ""
                     INSTALL_COMMAND ""
                     BUILD_COMMAND ${BUILD_COMMAND}
@@ -43,5 +43,5 @@ externalproject_add(bsnes-mercury
 install(FILES ${PROJECT_SOURCE_DIR}/out/bsnes_mercury_accuracy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX}
         DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
 
-# write the beetle-bsnes-config.cmake script
+# write the config.cmake script
 file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-bsnes-mercury-config.cmake "set(BSNES_MERCURY_LIB ${CMAKE_INSTALL_PREFIX}/lib/bsnes_mercury_accuracy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")

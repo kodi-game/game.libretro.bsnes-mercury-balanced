@@ -9,9 +9,7 @@ enable_language(CXX)
 find_package(kodi REQUIRED)
 find_package(libretro-bsnes-mercury-balanced REQUIRED)
 
-set(DEPLIBS bsnes-mercury-balanced)
 set(BSNES_MERCURY_CUSTOM_BINARY ${BSNES_MERCURY_LIB}
-                                ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX}
-                                ${DEPLIBS})
+                                ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX})
 
-build_addon(${PROJECT_NAME} BSNES_MERCURY DEPLIBS)
+build_addon(${PROJECT_NAME} BSNES_MERCURY "")

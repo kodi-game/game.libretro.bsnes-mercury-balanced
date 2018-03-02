@@ -19,8 +19,8 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Nintendo - SNES / Famicom (bsnes-mercury Balanced) v094 (Balanced)</summary>
-		<description>bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.
+		<summary lang="en_GB">Nintendo - SNES / Famicom (bsnes-mercury Balanced) v094 (Balanced)</summary>
+		<description lang="en_GB">bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.
 
 The &#34;Balanced&#34; profile is a good compromise between accuracy and performance.
 

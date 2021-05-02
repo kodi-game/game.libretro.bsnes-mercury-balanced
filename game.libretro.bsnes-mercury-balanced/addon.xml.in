@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.bsnes-mercury-balanced"
 		name="Nintendo - SNES / SFC (bsnes-mercury Balanced)"
-		version="0.94.0.10"
-		provider-name="byuu, Alcaro">
+		version="0.94.0.11"
+		provider-name="Near, Alcaro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 		<import addon="game.controller.snes" version="1.0.0"/>

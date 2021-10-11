@@ -22,7 +22,7 @@ msgid "Nintendo - SNES / SFC (bsnes-mercury Balanced) v094 (Balanced)"
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.[CR][CR]The &#34;Balanced&#34; profile is a good compromise between accuracy and performance."
+msgid "bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.[CR][CR]The \"Balanced\" profile is a good compromise between accuracy and performance."
 msgstr ""
 
 msgctxt "Addon Disclaimer"

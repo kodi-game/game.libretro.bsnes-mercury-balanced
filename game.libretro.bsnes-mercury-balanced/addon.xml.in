@@ -30,6 +30,7 @@
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes-mercury Balanced)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (bsnes-mercury Balanceado)</summary>
 		<description lang="da_DK">bSNES Mercury er en fork af Higan (oprindeligt kaldet bSNES), kendt for at emulere den originale hardware så nøjagtigt som muligt gennem lav-niveau, cyklus-nøjagtig emulering.[CR][CR]Den [I]Balancerede[/I] profil er et godt kompromis mellem nøjagtighed og ydeevne.</description>
 		<description lang="en_GB">bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.[CR][CR]The [I]Balanced[/I] profile is a good compromise between accuracy and performance.</description>
 		<description lang="es_ES">bSNES Mercury es una bifurcación de Higan (originalmente llamado bSNES), que destaca por emular el hardware original con la mayor precisión posible mediante emulación de bajo nivel y precisión de ciclos.[CR][CR]El perfil [I]Balanced[/I] es un buen equilibrio entre precisión y rendimiento.</description>
